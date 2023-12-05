@@ -1,6 +1,6 @@
 ## Before starting to code
 
-1. Copy _.env.example_ file content into your local _.env_ file.
+1. Copy `.env.example` file content into your local `.env` file.
 2. DB is already deployed on remote server and waiting for you :)
 3. Drop DB: run `npm run dropDB` to be sure it's empty.
 4. No migrations - your entities would be synchronized with DB automatically after TypeORM entities files being changed and saved.
