@@ -11,3 +11,9 @@
 6. Create API endpoints to dynamically get a list of shopping lists and items for a particular user.
 
 7. Create API endpoint that allows to add/remove items from shopping list. If shopping list is new - new shopping list should be created.
+
+---
+
+To drop DB run `npm run dropDB`
+
+No migrations - your entities are synchronized with DB automatically
