@@ -1,3 +1,14 @@
+## Before starting to code
+
+1. Copy _.env.example_ file content into your local _.env_ file.
+2. DB is already deployed on remote server and waiting for you :)
+3. Drop DB: run `npm run dropDB` to be sure it's empty.
+4. No migrations - your entities would be synchronized with DB automatically after TypeORM entities files being changed and saved.
+
+---
+
+## Instruction for the candidate
+
 1. Create a model for shopping lists and items located in src/mocks/items.ts.
 
 2. Store the shopping lists and items located in src/mocks/items.ts in the database.
@@ -12,8 +23,4 @@
 
 7. Create API endpoint that allows to add/remove items from shopping list. If shopping list is new - new shopping list should be created.
 
----
-
-To drop DB run `npm run dropDB`
-
-No migrations - your entities are synchronized with DB automatically
+## Good luck!
