@@ -1,3 +1,5 @@
+// "postgres://tech_interview:r1bw4j1Oiobg6sSM7BUGzINZv7Rwys1A@dpg-clmqni4jtl8s73a7sjcg-a.frankfurt-postgres.render.com/tech_interview"
+
 export const items = [
   {
     name: 'White paint',
