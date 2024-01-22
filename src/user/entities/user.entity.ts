@@ -5,7 +5,7 @@ import {
   JoinColumn,
   OneToMany,
 } from 'typeorm';
-import { UserShoppingList } from './user-shopping-list.entity';
+import { ShoppingList } from '../../shopping-list/entities/shopping-list.entity';
 
 @Entity({
   name: 'user',
@@ -24,10 +24,10 @@ export class User {
   })
   name: string;
 
-  @OneToMany(() => UserShoppingList, (shoppingList) => shoppingList.user)
+  @OneToMany(() => ShoppingList, (shoppingList) => shoppingList.user)
   @JoinColumn({
     name: 'user_id',
     referencedColumnName: 'userId',
   })
-  shoppingList: UserShoppingList;
+  shoppingList: ShoppingList;
 }
