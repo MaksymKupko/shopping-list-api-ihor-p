@@ -52,11 +52,4 @@ export class Items {
     referencedColumnName: 'itemCountId',
   })
   itemCount: ItemCount;
-
-  // @ManyToOne(() => ShoppingList, (shoppingList) => shoppingList.items)
-  // @JoinColumn({
-  //   name: 'item_id',
-  //   referencedColumnName: 'itemId',
-  // })
-  // shoppingList: ShoppingList;
 }

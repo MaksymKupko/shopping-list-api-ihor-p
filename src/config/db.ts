@@ -8,6 +8,7 @@ export const dbConfig = {
   entities: [__dirname + '/../**/*.entity{.ts,.js}'],
   synchronize: true,
   url: process.env.DB_URL,
+  logging: 'all',
   ssl: true,
 } as PostgresConnectionOptions;
 
